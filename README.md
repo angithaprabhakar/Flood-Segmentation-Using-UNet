@@ -1,39 +1,26 @@
-Flood Detection Using Deep Learning
+# Flood Detection Using Deep Learning
 
 This project uses Deep Learning to detect and segment flooded areas from satellite images.
 
-Dataset
+## Dataset
+- FloodNet Dataset (from Kaggle)
+- Dataset not included due to large size
 
-FloodNet Dataset (from Kaggle)
+## Model
+- U-Net architecture
+- Image segmentation (flood vs non-flood)
 
-Dataset not included due to large size
+## Tools
+- Python
+- PyTorch
+- OpenCV
+- NumPy
+- Matplotlib
 
-Model
+## Output
+- Flood segmentation masks
+- Visual comparison of original image and predicted flood area
 
-U-Net architecture
-
-Image segmentation (flood vs non-flood)
-
-Tools
-
-Python
-
-PyTorch
-
-OpenCV
-
-NumPy
-
-Matplotlib
-
-Output
-
-Flood segmentation masks
-
-Visual comparison of original image and predicted flood area
-
-How to Run
-
-Open the notebook in Google Colab
-
-Run all cells sequentially
+## How to Run
+- Open the notebook in Google Colab
+- Run all cells sequentially
